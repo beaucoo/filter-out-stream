@@ -1,0 +1,50 @@
+{
+    "name":"filter-out-stream",
+    "version":"0.0.1",
+    "description":"A stream that filters out data, or updates it, optionally to a limit kept, optionally consuming as much as possible past limit until another to keep is encountered.",
+    "main":"./filter-out-stream",
+    "keywords":[
+        "stream",
+        "filter",
+        "out",
+        "update",
+        "limit",
+        "consume"
+    ],
+    "engines":[
+        "node"
+    ],
+    "directories":{
+        "test":"./test"
+    },
+    "scripts":{
+        "test":"mocha test --require should --reporter spec --recursive"
+    },
+    "contributors":[
+        {
+            "name":"BeauCoo",
+            "email":"info@beaucoo.com",
+            "url":"http://beaucoo.com/"
+        },
+        {
+            "name":"Rick Cotter",
+            "email":"rick@beaucoo.com"
+        }
+    ],
+    "bugs":{
+        "url":"https://github.com/beaucoo/filter-out-stream/issues"
+    },
+    "repository":{
+        "type":"git",
+        "url":"https://github.com/beaucoo/filter-out-stream.git"
+    },
+    "dependencies":{
+        "through":"2.1.0"
+    },
+    "readmeFilename":"README.md",
+    "devDependencies":{
+        "mocha":"~1.8.1",
+        "should":"~1.2.1",
+        "arraystream":"~0.0.5"
+    }
+}
