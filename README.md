@@ -13,7 +13,3 @@ the next page of data in a future request.
 
 ##Running Tests
 Run `mocha test --require should --reporter spec --recursive`
-
-
-
-
