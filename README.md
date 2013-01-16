@@ -3,6 +3,11 @@
 A stream that filters out data, or updates it, optionally to a limit kept, optionally consuming as much as
 possible past limit until another to keep is encountered.
 
+Properties:
+
+* **filteredInCount** tracks the number of items kept.
+* **lastItem** is the last item inspected.
+
 ##Release Notes
 v0.0.1 First
 
@@ -12,4 +17,6 @@ This is useful when receiving data from a broad query and wanting to capture det
 the next page of data in a future request.
 
 ##Running Tests
-Run `mocha test --require should --reporter spec --recursive`
+
+* Run 'npm test'
+* or run `mocha test --require should --reporter spec --recursive`
